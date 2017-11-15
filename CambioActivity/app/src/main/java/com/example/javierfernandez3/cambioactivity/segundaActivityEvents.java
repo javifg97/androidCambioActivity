@@ -16,9 +16,15 @@ public class segundaActivityEvents implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
-        /*if (){
+        if (v.getId() == R.id.btnEditar && !DataHolder.instance.isEnable){
+            DataHolder.instance.isEnable = !DataHolder.instance.isEnable;
 
-        }*/
+            segundaActivity.txtfNombre.setEnabled(DataHolder.instance.isEnable);
+            segundaActivity.txtfEmail.setEnabled(DataHolder.instance.isEnable);
+            segundaActivity.txtfTelefono.setEnabled(DataHolder.instance.isEnable);
+            segundaActivity.txtfDireccion.setEnabled(DataHolder.instance.isEnable);
+
+        }
 
     }
 }

@@ -9,13 +9,13 @@ public class segundaActivity extends AppCompatActivity {
 
     private segundaActivityEvents events;
 
-    private Button btnVolver;
-    private Button btnEditar;
+    public Button btnVolver;
+    public Button btnEditar;
 
-    private EditText txtfNombre;
-    private EditText txtfEmail;
-    private EditText txtfTelefono;
-    private EditText txtfDireccion;
+    public EditText txtfNombre;
+    public EditText txtfEmail;
+    public EditText txtfTelefono;
+    public EditText txtfDireccion;
 
 
 
@@ -25,5 +25,23 @@ public class segundaActivity extends AppCompatActivity {
         setContentView(R.layout.activity_segunda);
 
         events = new segundaActivityEvents(this);
+
+
+        btnVolver = (Button) this.findViewById(R.id.btnVolver);
+        btnEditar = (Button) this.findViewById(R.id.btnEditar);
+
+        txtfNombre = (EditText) this.findViewById(R.id.txtfNombre);
+        txtfEmail = (EditText) this.findViewById(R.id.txtfEmail);
+        txtfTelefono = (EditText) this.findViewById(R.id.txtfTelefono);
+        txtfDireccion = (EditText) this.findViewById(R.id.txtfDireccion);
+
+
+        btnEditar.setOnClickListener(events);
+        btnVolver.setOnClickListener(events);
+
+        txtfNombre.setEnabled(DataHolder.instance.isEnable);
+        txtfEmail.setEnabled(DataHolder.instance.isEnable);
+        txtfTelefono.setEnabled(DataHolder.instance.isEnable);
+        txtfDireccion.setEnabled(DataHolder.instance.isEnable);
     }
 }
