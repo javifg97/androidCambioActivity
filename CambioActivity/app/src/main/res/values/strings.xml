@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">CambioActivity</string>
+    <string name="bntPerfil">PERFIL</string>
+    <string name="lblTitulo">Titulo</string>
+    <string name="txtfCapitulo1">Capitulo Primero</string>
+    <string name="txtfCapitulo2">Capitulo Segundo</string>
+    <string name="txtfCapitulo3">Capitulo Tercero</string>
+    <string name="lblTexto">Texto</string>
+    <string name="txtfTexto1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vestibulum faucibus felis. Phasellus ornare ac augue ac molestie. Duis feugiat massa a mauris sagittis, sit amet rhoncus lorem malesuada. Proin congue metus felis, quis sodales nisi ultricies eget. Cras a sodales purus. Nam porttitor ac nulla in porta. Praesent turpis quam, mollis id tincidunt sit amet, sodales semper ante. Vivamus dignissim augue nec velit maximus, sed volutpat sapien molestie. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In venenatis efficitur lorem, sed bibendum sapien. Proin et eros fermentum, congue lorem vel, consequat turpis. Praesent posuere rhoncus ex ultrices sagittis. Suspendisse nulla ipsum, scelerisque id suscipit vel, condimentum vitae dolor. Mauris scelerisque rutrum urna, sed mattis orci pellentesque at. Nulla vitae vulputate justo, at condimentum dolor.</string>
+    <string name="txtfTexto2">Quisque ac pulvinar turpis, id commodo massa. Aliquam vulputate sem eu aliquam facilisis. Fusce at lacinia risus, eu laoreet mauris. Curabitur in suscipit magna. Quisque vulputate, mauris quis facilisis sagittis, diam erat hendrerit lacus, a fermentum leo enim auctor sapien. Donec tristique, libero eu vestibulum hendrerit, est nisi tristique lacus, sed maximus velit lectus quis nibh. In varius ipsum eget urna lobortis gravida. Pellentesque volutpat mollis risus quis aliquet. Fusce consectetur odio libero, sed scelerisque nisi suscipit vel. Fusce feugiat libero non erat molestie, a maximus sem sagittis. Aliquam at lectus ac nisl interdum condimentum vel ut lectus. Fusce ex ligula, maximus a consequat et, auctor a ligula.</string>
+    <string name="txtfTexto3">Integer posuere dapibus pellentesque. Duis iaculis faucibus ante nec eleifend. Fusce vulputate rhoncus ipsum, in venenatis mauris ultrices a. Aenean ut lectus iaculis, faucibus dolor at, fermentum quam. Mauris lacinia pharetra lorem, at ornare nibh mollis a. Mauris auctor massa non dignissim condimentum. Suspendisse ultricies id tortor tempor mattis. Aliquam nec libero et erat vehicula vehicula in non ipsum. Vestibulum scelerisque elit nec velit sodales condimentum. Mauris tempor libero sed pulvinar tristique.</string>
+    <string name="btnAnterior">ANTERIOR</string>
+    <string name="btnSiguiente">SIGUIENTE</string>
+    <string name="btnVolver">VOLVER</string>
+    <string name="btnEditar1">EDITAR</string>
+    <string name="btnEditar2">GUARDAR</string>
+    <string name="lblNombre">Nombre</string>
+    <string name="lblEmail">EMAIL</string>
+    <string name="lblTelefono">Telefono</string>
+    <string name="lblDireccion">Direccion</string>
+    <string name="lblFecha">Fecha inscripcion</string>
 </resources>
