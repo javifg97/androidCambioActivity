@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">CambioActivity</string>
-    <string name="bntPerfil">PERFIL</string>
+    <string name="btnPerfil">PERFIL</string>
     <string name="lblTitulo">Titulo</string>
     <string name="txtfCapitulo1">Capitulo Primero</string>
     <string name="txtfCapitulo2">Capitulo Segundo</string>

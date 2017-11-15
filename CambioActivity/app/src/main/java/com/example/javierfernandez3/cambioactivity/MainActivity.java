@@ -9,12 +9,14 @@ public class MainActivity extends AppCompatActivity {
 
     private MainActivityEvents events;
 
-    private Button btnPerfil;
-    private Button btnAnterior;
-    private Button btnSiguiente;
+    public Button btnPerfil;
+    public Button btnAnterior;
+    public Button btnSiguiente;
 
-    private EditText txtfCapitulos;
-    private EditText txtfTexto;
+    public EditText txtfCapitulos;
+    public EditText txtfTexto;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
 
         events = new MainActivityEvents(this);
 
-        btnPerfil = (Button) this.findViewById(R.id.bntPerfil);
+        btnPerfil = (Button) this.findViewById(R.id.btnPerfil);
         btnAnterior = (Button) this.findViewById(R.id.btnAnterior);
         btnSiguiente = (Button) this.findViewById(R.id.btnSiguiente);
 

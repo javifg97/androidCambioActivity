@@ -16,10 +16,10 @@
         app:layout_constraintRight_toLeftOf="@+id/linearLayout">
 
         <Button
-            android:id="@+id/bntPerfil"
+            android:id="@+id/btnPerfil"
             android:layout_width="131dp"
             android:layout_height="wrap_content"
-            android:text="@string/bntPerfil" />
+            android:text="@string/btnPerfil" />
 
         <ScrollView
             android:layout_width="match_parent"

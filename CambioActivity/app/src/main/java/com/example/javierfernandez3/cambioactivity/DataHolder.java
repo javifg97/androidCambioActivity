@@ -8,4 +8,5 @@ public class DataHolder {
     static public DataHolder instance = new DataHolder();
 
     public boolean isEnable = false;
+    public int capitulo = 1;
 }
