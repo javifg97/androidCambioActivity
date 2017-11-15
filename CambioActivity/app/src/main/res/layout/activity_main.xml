@@ -7,13 +7,17 @@
     tools:context="com.example.javierfernandez3.cambioactivity.MainActivity">
 
     <LinearLayout
-        android:layout_width="354dp"
-        android:layout_height="499dp"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteY="1dp"
         android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="510dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginRight="-353dp"
-        app:layout_constraintRight_toLeftOf="@+id/linearLayout">
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <Button
             android:id="@+id/btnPerfil"
@@ -28,7 +32,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView"
@@ -53,7 +57,7 @@
                 <EditText
                     android:id="@+id/txtfTexto"
                     android:layout_width="match_parent"
-                    android:layout_height="321dp"
+                    android:layout_height="wrap_content"
                     android:ems="10"
                     android:inputType="textMultiLine"
                     android:text="@string/txtfTexto1" />
@@ -61,7 +65,7 @@
         </ScrollView>
 
         <LinearLayout
-            android:layout_width="353dp"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal">
 

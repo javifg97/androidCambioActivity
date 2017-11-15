@@ -2,6 +2,7 @@ package com.example.javierfernandez3.cambioactivity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -23,6 +24,7 @@ public class segundaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_segunda);
+        getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_HIDDEN);
 
         events = new segundaActivityEvents(this);
 
