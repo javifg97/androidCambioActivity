@@ -1,5 +1,6 @@
 package com.example.javierfernandez3.cambioactivity;
 
+import android.content.Intent;
 import android.view.View;
 
 /**
@@ -16,7 +17,13 @@ public class segundaActivityEvents implements View.OnClickListener{
 
     @Override
     public void onClick(View v) {
-        if (v.getId() == R.id.btnEditar && !DataHolder.instance.isEnable){
+        if (v.getId() == R.id.btnEditar){
+            if (DataHolder.instance.isEnable){
+                segundaActivity.btnEditar.setText(R.string.btnEditar1);
+            }else {
+                segundaActivity.btnEditar.setText(R.string.btnEditar2);
+            }
+
             DataHolder.instance.isEnable = !DataHolder.instance.isEnable;
 
             segundaActivity.txtfNombre.setEnabled(DataHolder.instance.isEnable);
@@ -24,7 +31,12 @@ public class segundaActivityEvents implements View.OnClickListener{
             segundaActivity.txtfTelefono.setEnabled(DataHolder.instance.isEnable);
             segundaActivity.txtfDireccion.setEnabled(DataHolder.instance.isEnable);
 
+        }else if (v.getId() == R.id.btnVolver){
+            Intent intent = new Intent(segundaActivity,MainActivity.class);
+            segundaActivity.startActivity(intent);
+            segundaActivity.finish();
         }
+
 
     }
 }
