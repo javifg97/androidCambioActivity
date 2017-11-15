@@ -19,7 +19,7 @@
             android:id="@+id/bntPerfil"
             android:layout_width="131dp"
             android:layout_height="wrap_content"
-            android:text="@string/app_name" />
+            android:text="@string/bntPerfil" />
 
         <ScrollView
             android:layout_width="match_parent"
@@ -34,27 +34,29 @@
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Titulo" />
+                    android:text="@string/lblTitulo" />
 
                 <EditText
                     android:id="@+id/txtfCapitulos"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:text="@string/txtfCapitulo1" />
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Texto" />
+                    android:text="@string/lblTexto" />
 
                 <EditText
                     android:id="@+id/txtfTexto"
                     android:layout_width="match_parent"
                     android:layout_height="321dp"
                     android:ems="10"
-                    android:inputType="textMultiLine" />
+                    android:inputType="textMultiLine"
+                    android:text="@string/txtfTexto1" />
             </LinearLayout>
         </ScrollView>
 
@@ -64,18 +66,18 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/button6"
+                android:id="@+id/btnAnterior"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="@string/btnAnterior" />
 
             <Button
-                android:id="@+id/button5"
+                android:id="@+id/btnSiguiente"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Button" />
+                android:text="@string/btnSiguiente" />
         </LinearLayout>
 
     </LinearLayout>
